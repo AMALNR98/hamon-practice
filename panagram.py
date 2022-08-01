@@ -10,9 +10,9 @@ def panagram(s):
             count += 1
         i += 1
     if count == 26:
-        print("Is panagram")
+        # print("Is panagram")
         return True
-    print("Is not panagram")
+    # print("Is not panagram")
     return False
-s = "The quick brown fox jumps over the lazy dog"
-panagram(s)
+# s = "The quick brown fox jumps over the lazy dog"
+# panagram(s)
